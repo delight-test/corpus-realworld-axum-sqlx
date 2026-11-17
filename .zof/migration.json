@@ -1,0 +1,21 @@
+{
+  "id": "migration",
+  "kind": "scanner",
+  "spec": {
+    "mode": "migration",
+    "postgres_version": 16,
+    "migration_dir": "migrations",
+    "baseline": [
+      "migrations/1_setup.sql",
+      "migrations/2_user.sql",
+      "migrations/3_follow.sql",
+      "migrations/4_article.sql"
+    ],
+    "seed": [".zof/migration/seed.sql"],
+    "invariants": [
+      ".zof/migration/invariants/users_kept.sql",
+      ".zof/migration/invariants/articles_kept.sql",
+      ".zof/migration/invariants/favorites_kept.sql"
+    ]
+  }
+}
