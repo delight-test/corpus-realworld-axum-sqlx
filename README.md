@@ -170,3 +170,5 @@ See [LICENSE](LICENSE) in this repository for the text of the AGPL.
 Because enforcement of the AGPL requires that we own the copyright on the whole project, any contributions
 to this project must be explicitly assigned copyright to Launchbadge, LLC. We're still researching the best
 route to do this, so while we will allow PRs to be opened against this repository, they may not be merged right away.
+
+<!-- Zof Database migrations, declared-path proof step 0 (17 Nov 2026): a README-only change, so this pull request adds no migration. -->
